@@ -2,8 +2,8 @@ all:
   hosts:
     cloudvision:
       ansible_host: www.cv-staging.corp.arista.io
-      ansible_user: mtache
-      ansible_password: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaWQiOjUwMjg4ODgsImRzbiI6IkNhY3R1cyIsImRzdCI6ImFjY291bnQiLCJleHAiOjE4OTg0NjM1OTksImlhdCI6MTcwOTE0MTk4Mywib2dpIjozODM1NzQ0LCJvZ24iOiJmcmFuY2Utc2UiLCJzaWQiOiJkOGFlNDIwY2FmOGQxNjI4ZjA4OWE3NjBkMjJiZTkyOGMwMTg5MjA2NDY3MDMyOGExZDcxYzJlZWQyODU3ZDU5LW9SUU1BY0VEWThBWVJ3WlBzYlk5RVpBVFV2dEEwdUc5NVpsR21ueHEifQ.A87nV787RiZSM0hcXP42yx1XrQEo1wtfXS38-UI-VOFy_OoVJnYJ8L0_PM0fFDwQlEsH5iZbN3sLN4pvibXJsw
+      ansible_user: YOUR_USER
+      ansible_password: YOUR_TOKEN
   children:
     ACB:
       vars:
